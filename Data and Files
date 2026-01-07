@@ -1,0 +1,5 @@
+data.csv: Your 7 days of historical solar data (columns like Timestamp, Power_kW, Irradiance).
+
+requirements.txt: A text file listing the tools the dashboard needs.
+
+app.py: The actual Python code that builds the dashboard.
