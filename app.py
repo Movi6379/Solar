@@ -8,7 +8,7 @@ st.title("☀️ 2MW Solar Plant: 7-Day Performance Analysis")
 # 2. Load Data
 # Note: Ensure 'data.csv' is in your GitHub folder
 try:
-    df = pd.read_csv('Soalr datas.csv')
+    df = pd.read_csv('Solar datas.csv')
     df['Timestamp'] = pd.to_datetime(df['Timestamp'])
     # Setting Timestamp as index is required for native Streamlit charts
     df.set_index('Timestamp', inplace=True)
